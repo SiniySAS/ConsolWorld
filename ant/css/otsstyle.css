@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+main{
+    height: 3000px;
+}
+h3{
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+.ONEblock{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}  
+.text-block{
+    font-size: 1.1em;
+    line-height: 1.4;
+    width: 50%;
+    padding: 10px;
+}
+
+.Witcher{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.photos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.photos3{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 20px;}
+.Transistor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.THREEitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.FOURitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.FOURitem img {
+    padding: 10px;
+
+    padding-top: 0;
+    width: 100%;
+    max-width: 700px; 
+    height: auto;
+    margin-left: 20px;
+}
+.THREEitem img {
+    padding: 10px;
+
+    padding-top: 0;
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+
+.THREEitem p{
+    padding-top: 0;
+    font-size: 0.8em;
+    color: #555;
+    margin-right: 20px;
+}
+
+.ONEitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.FOURitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.ONEitem img {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.ONEitem p{
+    padding-top: 0;
+    font-size: 0.8em;
+    color: #555;
+    margin-right: 20px;
+}
+.FOURitem p{
+    padding-top: 0;
+    font-size: 0.8em;
+    color: #555;
+    margin-right: 20px;
+}
+
+@media  (max-width:900px){
+    main{
+        height: 2800px;;
+    }
+}
+
+@media screen and (max-width:850px){
+    main{
+        height: auto;
+    }
+    .Witcher{
+        flex-direction: column;
+    }
+    .text-block{
+        width: 100%;
+    }
+    .THREEitem img {
+        max-width: 100%; 
+    }
+    .ONEitem p{
+        font-size: 0.5em;
+    }
+    .FOURitem p{
+        font-size: 0.5em;
+    }
+}

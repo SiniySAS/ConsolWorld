@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+main{
+    height:6200px;
+}
+h1{
+    padding: 15px;
+}
+.ZD{
+    display: flex;
+    flex-direction: column;
+} 
+.MU{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.startZD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-block {
+    font-size: 1.1em;
+    line-height: 1.4;
+    width: 100%;
+    padding: 15px;
+}
+.startZD img{
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.artStyle1{
+    padding-top: 0;
+    font-size: 0.8em;
+    color: #555;
+    margin-right: 20px;
+}
+.artStyle1{
+    padding-top: 0;
+    font-size: 0.8em;
+    color: #555;
+    margin-left: 20px;
+}
+.FirstText{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 15px;
+    align-items: center;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+}
+.photos img{
+    width: 100%;
+}
+.photosCOMIX{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.photosCOMIX img{
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+    max-width: 700px; 
+    height: auto;
+} 
+.navWork{
+    padding-left: 40px;
+}
+.navWork li{
+    list-style-type: circle;
+}
+@media screen and (max-width:850px) {
+    main{
+        height: auto;
+    }
+    .startZD{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 1.7em;
+    }
+    .artStyle1{
+        margin-right: 0px;
+    }
+    .artStyle1{
+        margin-left: 0px;
+    }
+    .photosCOMIX{ 
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    .MU img{
+        padding: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .ZD img{
+        padding: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
